@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>利尻町立博物館 | 利尻島の自然と暮らしの記憶</title>
+<meta name="description" content="利尻町の自然・歴史・海とともに生きた人々の暮らしを伝える町立博物館。入館料は大人200円、高校生以下無料。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ai:#14233a;--shio:#3c5a6e;--kiri:#eef1f2;--shinchu:#a8874f;--tsuchi:#e8e2d4;--ink:#1d2733;box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--kiri);color:var(--ink);font-family:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.9;font-size:16px}
+h1,h2,h3{font-family:"Shippori Mincho","Yu Mincho","Hiragino Mincho ProN",serif;font-weight:600;letter-spacing:.12em;margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--shinchu);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:flex-end;color:#fff;background:var(--ai) url(images/rishiri-hero.jpg) center/cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,35,58,.88),rgba(20,35,58,.1) 60%)}
+.hero .wrap{position:relative;z-index:1;padding-bottom:12vh;width:100%}
+.hero h1{font-size:clamp(2.2rem,6.5vw,4.6rem);line-height:1.35;writing-mode:horizontal-tb}
+.hero p{max-width:30em;margin:1.6rem 0 2.2rem;color:#e6ebef}
+.btn{display:inline-block;padding:.95em 2.2em;border:1px solid var(--shinchu);color:#fff;text-decoration:none;letter-spacing:.14em;transition:background .2s,color .2s}
+.btn:hover{background:var(--shinchu);color:var(--ai)}
+.btn.dark{color:var(--ai)}
+.btn.dark:hover{color:#fff}
+section{padding:112px 0}
+h2{font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.6;margin-bottom:1.6rem}
+.about{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:center}
+.about img,.feature img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover}
+.about p{max-width:34em}
+.history{background:var(--ai);color:#e8edf1}
+.history .grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.history img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.history h2{color:#fff}
+.year{font-family:"Shippori Mincho",serif;color:var(--shinchu);font-size:1.3rem;letter-spacing:.2em;margin:0 0 .6rem}
+.feature{background:var(--tsuchi)}
+.feature .grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.reviews{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:40px}
+blockquote{margin:0;padding:32px;background:#fff;border-top:3px solid var(--shinchu)}
+blockquote .star{color:var(--shinchu);letter-spacing:.2em}
+blockquote p{margin:.8rem 0 0;font-size:.95rem}
+.info dl{display:grid;grid-template-columns:9em 1fr;margin:0;border-top:1px solid #c9d0d4}
+.info dt,.info dd{margin:0;padding:1.1rem 0;border-bottom:1px solid #c9d0d4}
+.info dt{font-family:"Shippori Mincho",serif;letter-spacing:.1em;color:var(--shio)}
+.mapbox{margin-top:56px}
+.mapbox iframe{width:100%;height:420px;border:0;display:block;filter:saturate(.8)}
+.mapbtn{text-align:center;margin-top:28px}
+footer{background:var(--ai);color:#cfd8de;text-align:center;padding:56px 24px 40px}
+footer .name{font-family:"Shippori Mincho",serif;font-size:1.2rem;letter-spacing:.2em;color:#fff;margin:0 0 20px}
+.sns{display:flex;justify-content:center;gap:18px;margin:0 0 28px;padding:0;list-style:none}
+.sns a{display:grid;place-items:center;width:46px;height:46px;border:1px solid var(--shinchu);border-radius:50%;color:#fff;transition:background .2s,color .2s}
+.sns a:hover{background:var(--shinchu);color:var(--ai)}
+.sns svg{width:20px;height:20px;fill:currentColor}
+small{font-size:.8rem;opacity:.75}
+@media(max-width:780px){section{padding:76px 0}.about,.history .grid,.feature .grid,.reviews{grid-template-columns:1fr;gap:36px}.info dl{grid-template-columns:7em 1fr}.mapbox iframe{height:320px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="wrap">
+<h1>利尻の海と大地が育んだ<br>暮らしの記憶に出会う</h1>
+<p>利尻町の自然、歴史、そして海とともに生きてきた人々の文化を、ひとつの館内で静かにたどる町立博物館です。</p>
+<a class="btn" href="#access">アクセスを見る</a>
+</div>
+</header>
+
+<main>
+<section class="about" id="about" style="display:block">
+<div class="wrap about">
+<img src="images/rishiri-sea.jpg" alt="利尻の海をイメージした波の図案" loading="lazy">
+<div>
+<h2>島の自然と人の営みを、<br>ひと巡りで。</h2>
+<p>利尻の昆虫や生物、気候、歴史までを学べる展示が揃います。館内は約20分で見て回れるコンパクトな規模ながら、じっくり読み込むと1時間ほど過ごす方もいます。</p>
+<p>ふらりと立ち寄るのにちょうどよく、島を旅する時間に学びの深みを添えてくれます。</p>
+</div>
+</div>
+</section>
+
+<section class="history">
+<div class="wrap grid">
+<div>
+<p class="year">1977年（昭和52年）</p>
+<h2>発掘調査の資料を守るために、<br>この館は生まれました。</h2>
+<p>宗谷バス営業所の工事に関連した緊急発掘調査で出土した資料を保管するために設立されました。以来、利尻町の歴史と暮らしを今に伝えています。</p>
+</div>
+<img src="images/rishiri-strata.jpg" alt="地層と出土品をイメージした図案" loading="lazy">
+</div>
+</section>
+
+<section class="feature">
+<div class="wrap grid">
+<div>
+<h2>トドとアザラシの<br>はく製に会える。</h2>
+<p>海の生きものを間近に見られるはく製展示は、この館のいちばんの見どころです。撮影は可能ですが、館内にルールがありますので、掲示をご確認のうえお楽しみください。</p>
+</div>
+<img src="images/rishiri-hero.jpg" alt="利尻山と海の風景をイメージした図案" loading="lazy">
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<h2>ご来館者の声</h2>
+<div class="reviews">
+<blockquote>
+<span class="star" aria-label="5つ星中4つ">★★★★</span>
+<p>大人一人200円。駐車場は広く、20分ほどで全部見られるこぢんまりした博物館なので、少し寄るには十分楽しめます。島にいる蛇について、船などで紛れ込んだものだと館で知ることができました。</p>
+</blockquote>
+<blockquote>
+<span class="star" aria-label="5つ星中5つ">★★★★★</span>
+<p>料金は200円で、高校生以下は無料。撮影はできますがルールがあります。ふらりと寄って、利尻の昆虫や生物、気候、歴史を学べ、気づけば1時間ほど見入っていました。</p>
+</blockquote>
+</div>
+</div>
+</section>
+
+<section class="info" id="access" style="background:#fff">
+<div class="wrap">
+<h2>館のご案内</h2>
+<dl>
+<dt>入館料</dt><dd>大人 200円／高校生以下 無料</dd>
+<dt>休館日</dt><dd>月曜日、国民の祝日の翌日、年末年始（最後の休館日から御用始めまで）</dd>
+<dt>住所</dt><dd>北海道利尻郡利尻町仙法志本町136</dd>
+<dt>電話</dt><dd><a href="tel:0163851411">0163-85-1411</a></dd>
+<dt>公式ページ</dt><dd><a href="https://rishiri-town.jp/%E6%95%99%E8%82%B2/%E5%88%A9%E5%B0%BB%E7%94%BA%E5%8D%9A%E7%89%A9%E9%A4%A8/" target="_blank" rel="noopener">利尻町立博物館のページを開く</a></dd>
+<dt>メール</dt><dd><a href="mailto:rishiritownmuseum@town.rishiri.hokkaido.jp">rishiritownmuseum@town.rishiri.hokkaido.jp</a></dd>
+<dt>駐車場</dt><dd>広い駐車場あり</dd>
+</dl>
+
+<div class="mapbox">
+<iframe title="利尻町立博物館の地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+src="https://www.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E5%88%A9%E5%B0%BB%E9%83%A1%E5%88%A9%E5%B0%BB%E7%94%BA%E4%BB%99%E6%B3%95%E5%BF%97%E6%9C%AC%E7%94%BA136%20%E5%88%A9%E5%B0%BB%E7%94%BA%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8&output=embed"></iframe>
+<div class="mapbtn"><a class="btn dark" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E5%88%A9%E5%B0%BB%E9%83%A1%E5%88%A9%E5%B0%BB%E7%94%BA%E4%BB%99%E6%B3%95%E5%BF%97%E6%9C%AC%E7%94%BA136%20%E5%88%A9%E5%B0%BB%E7%94%BA%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8">地図を開く</a></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<p class="name">利尻町立博物館</p>
+<ul class="sns">
+<li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zM17.3 5.5a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4zM7.5 2h9A5.5 5.5 0 0122 7.5v9a5.5 5.5 0 01-5.5 5.5h-9A5.5 5.5 0 012 16.5v-9A5.5 5.5 0 017.5 2zm0 1.8A3.7 3.7 0 003.8 7.5v9a3.7 3.7 0 003.7 3.7h9a3.7 3.7 0 003.7-3.7v-9a3.7 3.7 0 00-3.7-3.7z"/></svg></a></li>
+<li><a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.3L5.3 21H2.2l7.2-8.3L1.9 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.3 4.7H5.5z"/></svg></a></li>
+<li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.6c0-.9.3-1.5 1.6-1.5h1.7V4.2c-.3 0-1.3-.1-2.5-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.4v3.2h2.8V22z"/></svg></a></li>
+</ul>
+<small>© 利尻町立博物館</small>
+</footer>
+</body>
+</html>
